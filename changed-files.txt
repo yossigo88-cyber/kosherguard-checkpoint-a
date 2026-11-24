@@ -1,0 +1,18 @@
+All files below are NEW, isolated development files. No existing application file changed.
+
+README.md
+artifacts/demo-results.json
+artifacts/integrity.json
+artifacts/synthetic.sqlite
+artifacts/test-results.txt
+demo.py
+docs/approved-policy-v1.0.ts
+docs/build-contract.md
+docs/policy-sha256.txt
+fixtures/policy-v1.0.json
+requirements.txt
+src/classifier.py
+src/schema.sql
+tests/test_classifier.py
+SHA256SUMS
+changed-files.txt
