@@ -33,8 +33,9 @@ test_32_synthetic_only_and_path_guard (test_classifier.Tests) ... ok
 test_33_revocation_needs_target (test_classifier.Tests) ... ok
 test_34_same_host_new_approved_assertion_suppressed (test_classifier.Tests) ... ok
 test_35_invalid_cache_and_release (test_classifier.Tests) ... ok
+test_all_28_categories_match_approved_source (test_policy_fidelity.PolicyFidelityTests) ... ok
 
 ----------------------------------------------------------------------
-Ran 35 tests in 0.136s
+Ran 36 tests in 0.143s
 
 OK
