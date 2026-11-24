@@ -1,10 +1,12 @@
 kosherguard-checkpoint-a/
   DEVELOPMENT-FAILURES.md
+  PROJECT-STRUCTURE.txt
+  PUBLICATION-NOTES.md
   README.md
   SHA256SUMS
   artifacts/demo-results.json
   artifacts/integrity.json
-  artifacts/synthetic.sqlite
+  artifacts/synthetic.sqlite.b64
   artifacts/test-results.txt
   changed-files.txt
   demo.py
@@ -16,4 +18,6 @@ kosherguard-checkpoint-a/
   src/classifier.py
   src/schema.sql
   tests/test_classifier.py
-  PROJECT-STRUCTURE.txt
+  tests/test_policy_fidelity.py
+
+Not tracked: artifacts/synthetic.sqlite (optional locally decoded/generated database).
