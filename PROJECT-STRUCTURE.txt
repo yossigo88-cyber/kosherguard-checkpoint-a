@@ -1,0 +1,19 @@
+kosherguard-checkpoint-a/
+  DEVELOPMENT-FAILURES.md
+  README.md
+  SHA256SUMS
+  artifacts/demo-results.json
+  artifacts/integrity.json
+  artifacts/synthetic.sqlite
+  artifacts/test-results.txt
+  changed-files.txt
+  demo.py
+  docs/approved-policy-v1.0.ts
+  docs/build-contract.md
+  docs/policy-sha256.txt
+  fixtures/policy-v1.0.json
+  requirements.txt
+  src/classifier.py
+  src/schema.sql
+  tests/test_classifier.py
+  PROJECT-STRUCTURE.txt
