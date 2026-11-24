@@ -1,0 +1,40 @@
+test_01_policy_checksum_and_all_28 (test_classifier.Tests) ... ok
+test_02_policy_final_exclusions (test_classifier.Tests) ... ok
+test_03_baseline_inheritance_boundary (test_classifier.Tests) ... ok
+test_04_exact_suppression_only_host (test_classifier.Tests) ... ok
+test_05_descendant_suppression (test_classifier.Tests) ... ok
+test_06_other_category_any_enabled (test_classifier.Tests) ... ok
+test_07_feed_repeat_remove_reappear (test_classifier.Tests) ... ok
+test_08_independent_source_cannot_resurrect (test_classifier.Tests) ... ok
+test_09_exact_outside_scope_child (test_classifier.Tests) ... ok
+test_10_revocation_cache_and_audit (test_classifier.Tests) ... ok
+test_11_unresolved_more_specific_approval (test_classifier.Tests) ... ok
+test_12_normalization (test_classifier.Tests) ... ok
+test_13_reject_bad_hostnames (test_classifier.Tests) ... ok
+test_14_public_private_suffix_guard (test_classifier.Tests) ... ok
+test_15_no_default_inheritance (test_classifier.Tests) ... ok
+test_16_shared_tenant_isolation (test_classifier.Tests) ... ok
+test_17_unsupported_url_inactive (test_classifier.Tests) ... ok
+test_18_raw_evidence_not_effective (test_classifier.Tests) ... ok
+test_19_settings_unchanged_and_cache_version (test_classifier.Tests) ... ok
+test_20_no_phone_or_network (test_classifier.Tests) ... ok
+test_21_immutable_records (test_classifier.Tests) ... ok
+test_22_schema_invalid_constraints (test_classifier.Tests) ... ok
+test_23_release_rollback_transaction (test_classifier.Tests) ... ok
+test_24_bounded_cache (test_classifier.Tests) ... ok
+test_25_psl_change_requires_review (test_classifier.Tests) ... ok
+test_26_restart_and_old_feed_rollback_preserves_correction (test_classifier.Tests) ... ok
+test_27_replacement_audit (test_classifier.Tests) ... ok
+test_28_fixture_exclusions_unknown_not_inferred (test_classifier.Tests) ... ok
+test_29_repeated_build_deterministic (test_classifier.Tests) ... ok
+test_30_selection_changes_never_write_store (test_classifier.Tests) ... ok
+test_31_read_only_classifier (test_classifier.Tests) ... ok
+test_32_synthetic_only_and_path_guard (test_classifier.Tests) ... ok
+test_33_revocation_needs_target (test_classifier.Tests) ... ok
+test_34_same_host_new_approved_assertion_suppressed (test_classifier.Tests) ... ok
+test_35_invalid_cache_and_release (test_classifier.Tests) ... ok
+
+----------------------------------------------------------------------
+Ran 35 tests in 0.136s
+
+OK
