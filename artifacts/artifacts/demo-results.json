@@ -1,0 +1,120 @@
+[
+  {
+    "status": "CLASSIFIED",
+    "host": "example.com",
+    "categories": [
+      "adult"
+    ],
+    "blocking_categories": [
+      "adult"
+    ],
+    "would_block": true,
+    "policy_version": "1.0",
+    "release": "synthetic-release-1",
+    "correction_version": 3,
+    "evidence": [
+      {
+        "assignment": "synthetic-parent",
+        "category": "adult",
+        "rule": "example.com",
+        "scope": "HOST_AND_DESCENDANTS",
+        "policy_version": "1.0",
+        "approval": "approve-synthetic-parent"
+      }
+    ],
+    "suppressed": [],
+    "enforcement": false
+  },
+  {
+    "status": "CLASSIFIED",
+    "host": "safe.example.com",
+    "categories": [
+      "gambling"
+    ],
+    "blocking_categories": [
+      "gambling"
+    ],
+    "would_block": true,
+    "policy_version": "1.0",
+    "release": "synthetic-release-1",
+    "correction_version": 3,
+    "evidence": [
+      {
+        "assignment": "synthetic-gambling",
+        "category": "gambling",
+        "rule": "safe.example.com",
+        "scope": "EXACT_HOST",
+        "policy_version": "1.0",
+        "approval": "approve-synthetic-gambling"
+      }
+    ],
+    "suppressed": [
+      {
+        "assignment": "synthetic-parent",
+        "corrections": [
+          "synthetic-safe"
+        ]
+      }
+    ],
+    "enforcement": false
+  },
+  {
+    "status": "SUPPRESSED",
+    "host": "child.safe.example.com",
+    "categories": [],
+    "blocking_categories": [],
+    "would_block": false,
+    "policy_version": "1.0",
+    "release": "synthetic-release-1",
+    "correction_version": 3,
+    "evidence": [],
+    "suppressed": [
+      {
+        "assignment": "synthetic-parent",
+        "corrections": [
+          "synthetic-safe"
+        ]
+      }
+    ],
+    "enforcement": false
+  },
+  {
+    "status": "CLASSIFIED",
+    "host": "othersafe.example.com",
+    "categories": [
+      "adult"
+    ],
+    "blocking_categories": [
+      "adult"
+    ],
+    "would_block": true,
+    "policy_version": "1.0",
+    "release": "synthetic-release-1",
+    "correction_version": 3,
+    "evidence": [
+      {
+        "assignment": "synthetic-parent",
+        "category": "adult",
+        "rule": "example.com",
+        "scope": "HOST_AND_DESCENDANTS",
+        "policy_version": "1.0",
+        "approval": "approve-synthetic-parent"
+      }
+    ],
+    "suppressed": [],
+    "enforcement": false
+  },
+  {
+    "status": "UNKNOWN",
+    "host": "notexample.com",
+    "categories": [],
+    "blocking_categories": [],
+    "would_block": false,
+    "policy_version": "1.0",
+    "release": "synthetic-release-1",
+    "correction_version": 3,
+    "evidence": [],
+    "suppressed": [],
+    "enforcement": false
+  }
+]
